@@ -1,15 +1,40 @@
-# Cypress + Cucumber Setup 
+# Cypress + Node.js + Cucumber Setup 
 
-Este guia fornece um passo a passo para configurar Cypress o projeto. 
+Este guia fornece um passo a passo para configurar o projeto. 
 
-## Pré-requisitos
+## Instalar Node.js e npm
 
-- Node.js e npm instalados na sua máquina. Você pode baixar o Node.js em [nodejs.org](https://nodejs.org). 
-- Projeto inicializado com npm (`npm init -y`).
+Caso ainda não tenha instalado o Node.js e npm, pode baixar em [nodejs.org](https://nodejs.org). 
+
+1. Baixar e Instalar o Node.js
+
+Acesse nodejs.org e baixe a versão recomendada do Node.js para o seu sistema operacional.
+Siga as instruções de instalação. O npm (Node Package Manager) é instalado automaticamente junto com o Node.js.
+
+2. Verificar instalação
+
+Após a instalação, verifique se o Node.jse o npm foram instalados corretamente:
+   
+   ```bash
+   node -v
+   ```
+
+   ```bash
+   npm -v
+   ```
+
+3. Inicializar um projeto
+
+O comando npm init -y cria um arquivo package.json com as configurações padrão, inicializando o projeto.
+Navegue até o diretório do projeto e execute:
+
+   ```bash
+   npm init -y
+   ```   
 
 ## Instalar Cypress
 
-Primeiro, instale o Cypress como dependência de desenvolvimento:
+Instale o Cypress como dependência de desenvolvimento:
 
    ```bash
    npm install cypress --save-dev
@@ -49,7 +74,7 @@ Primeiro, instale o Cypress como dependência de desenvolvimento:
    npx cypress open
    ```
 
-   Abrirá a interface gráfica do Cypress, onde você poderá selecionar os testes que deseja executar
+Abrirá a interface gráfica do Cypress, onde você poderá selecionar os testes que deseja executar
 
 2. Você pode visualizar tanto os testes `.feature`(front) do Cucumber quanto os arquivos `.cy.js`(backend) na interface.
 
