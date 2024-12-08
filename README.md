@@ -51,7 +51,7 @@ Instale o Cypress como dependência de desenvolvimento:
 2. Navegue até a pasta do projeto:
 
    ```bash
-   cd Serverest
+   cd serverest
    ```
 
 3. Instale as dependências:
