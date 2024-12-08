@@ -74,7 +74,7 @@ Instale o Cypress como dependência de desenvolvimento:
    npx cypress open
    ```
 
-Abrirá a interface gráfica do Cypress, onde você poderá selecionar os testes que deseja executar
+   (Abrirá a interface gráfica do Cypress, onde você poderá selecionar os testes que deseja executar)
 
 2. Você pode visualizar tanto os testes `.feature`(front) do Cucumber quanto os arquivos `.cy.js`(backend) na interface.
 
