@@ -1,9 +1,9 @@
-describe('Login API Test', () => {
+describe('Teste login', () => {
   it('deve realizar o login com sucesso', () => {
     cy.fixture('massas').then((massas) => {
       cy.request({
         method: 'POST',
-        url: `${massas.api}/login`, // Usando a URL do arquivo massas.json
+        url: `${massas.api}/login`,
         body: {
           email: massas.emailSucesso, 
           password: massas.senhaSucesso

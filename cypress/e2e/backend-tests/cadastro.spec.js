@@ -1,4 +1,4 @@
-describe('User API Test', () => {
+describe('Teste usuarios', () => {
     it('deve criar um usuário com sucesso', () => {
       cy.request({
         method: 'POST',

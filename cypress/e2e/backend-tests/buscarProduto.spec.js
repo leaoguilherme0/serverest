@@ -1,4 +1,4 @@
-describe('Products API Test', () => {
+describe('Teste produtos', () => {
     it('deve retornar um produto contendo a palavra-chave "Samsung"', () => {
       cy.request({
         method: 'GET',
